@@ -15,9 +15,9 @@ mongoose.connect(process.env.MONGO_URL).then(() => console.log("Mongo DB Connect
 
 // Routes
 
-app.use('/auth',authRoutes);
+app.use('/auth', authRoutes);
 
 
-app.listen(process.env.PORT,() =>{
-    console.log("Server Running...!")
+app.listen(process.env.PORT, () => {
+    console.log("Server Running Successfully...!")
 })
